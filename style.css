@@ -1,1 +1,9 @@
-
+  html {
+  font-family: 'Nunito', sans-serif;
+  color: black;
+  }
+  body {
+  background-image: url("https://images.procreate.art/discussions/CEB4398C-8A6B-64FA-8680-C428933C2D14.jpg");
+  text-align: center;
+  margin: auto;
+  }
