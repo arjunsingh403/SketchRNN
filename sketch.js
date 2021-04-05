@@ -41,7 +41,7 @@ function modelReady() {
   canvas.show();
   // sketchRNN will begin when the mouse is released
   canvas.mouseReleased(startSketchRNN);
-  select('#status').html("Model ready - begin drawing with the mouse, then let SketchRNN complete your snowflake!");
+  select('#status').html('Model ready - begin drawing with the mouse, then let SketchRNN complete your snowflake!');
 }
 
 // Reset the drawing
