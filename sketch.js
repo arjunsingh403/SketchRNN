@@ -22,14 +22,14 @@ let seedStrokes = [];
 let canvas;
 
 function setup() {
-  canvas = createCanvas(640, 480);
+  canvas = createCanvas(1280, 960);
   // Hide the canvas until the model is ready
   canvas.hide();
 
   background(220);
   // Load the model
   // See a list of all supported models: https://github.com/ml5js/ml5-library/blob/master/src/SketchRNN/models.js
-  model = ml5.sketchRNN('cat', modelReady);
+  model = ml5.sketchRNN('snowflake', modelReady);
 
   // Button to start drawing
   let button = select('#clear');
@@ -41,7 +41,7 @@ function modelReady() {
   canvas.show();
   // sketchRNN will begin when the mouse is released
   canvas.mouseReleased(startSketchRNN);
-  select('#status').html('model ready - sketchRNN will begin after you draw with the mouse');
+  select('#status').html('Model ready - begin drawing with the mouse, then let SketchRNN complete your snowflake!');
 }
 
 // Reset the drawing
