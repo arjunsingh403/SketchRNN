@@ -22,7 +22,7 @@ let seedStrokes = [];
 let canvas;
 
 function setup() {
-  canvas = createCanvas(1280, 960);
+  canvas = createCanvas(960, 720);
   // Hide the canvas until the model is ready
   canvas.hide();
 
